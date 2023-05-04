@@ -42,3 +42,16 @@ hr.bottom-nav-line {
     color: #E84610;
 }
 
+/* Footer Section */
+
+.footer-dark-bg {
+    background-color: rgba(166, 43, 31, 0.70);
+}
+
+.footer-light-bg {
+    background-color: #fafafa;
+}
+
+.social-link {
+    color: black;
+}
