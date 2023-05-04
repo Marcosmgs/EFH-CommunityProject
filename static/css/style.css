@@ -74,8 +74,8 @@ hr.bottom-nav-line {
 
     background-color: rgba(166, 43, 31, 0.6);
     
-    padding: 10px;
-    margin-left: 75px;
+    padding: 20px;
+    width: 75%;
     bottom: 35px;
 
     position: absolute;
@@ -104,6 +104,50 @@ hr.line-break {
     height: 10px;
     margin-top: 25px;
     background-color: #D96941;
+}
+
+/* Recipes Paginated List */
+
+.title-inspiration {
+    text-align: center;
+    padding: 15px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-tag {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color: rgba(166, 43, 31, 0.6);
+}
+
+.author {
+    color: #fafafa;
+    margin: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.page-link {
+    text-decoration: none;
+    color: #445261;
+}
+
+.page-link:hover {
+    color: #E84610;
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: #445261;
+}
+
+.recipe-link:hover {
+    color: #E84610;
 }
 
 /* Footer Section */
