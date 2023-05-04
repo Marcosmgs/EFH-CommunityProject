@@ -20,7 +20,18 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+    <header>
+        <p>HELLO WORLD</p>
+    </header>
+    <main>
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+    </main>
     
+    <footer>
+
+    </footer>
 </body>
 </html>
