@@ -4,7 +4,8 @@
 <html class="h-100">
 
 <head>
-    <title>Document</title>
+    <title>EFH</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     
@@ -21,8 +22,35 @@
 </head>
 
 <body class="d-flex flex-column h-100">
+
+    <!-- Navigation Section -->
     <header>
-        <p>HELLO WORLD</p>
+        <hr class="top-nav-line">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="brand-logo logo"><i class="fas fa-utensils"></i>EFH</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active navitems" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navitems" href="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navitems" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Eating From Home
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <hr class="bottom-nav-line">
     </header>
     <main>
         {% block content %}

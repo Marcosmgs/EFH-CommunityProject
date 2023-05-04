@@ -1,0 +1,44 @@
+* {
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navigation Section */
+
+hr.top-nav-line {
+    height: 10px;
+    padding: 0;
+    margin: 0;
+
+    background-color: #D96941;
+    opacity: .75;  
+}
+
+hr.bottom-nav-line {
+    height: 10px;
+    padding: 0;
+    margin: 0;
+
+    background-color: #A62B1F;
+    opacity: .95;
+}
+
+.logo{
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 50px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+.navitems {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navitems:hover {
+    color: #E84610;
+}
+
