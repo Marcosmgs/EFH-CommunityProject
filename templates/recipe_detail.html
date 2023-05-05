@@ -80,6 +80,31 @@
     </div>
 </div>
         
-
+<!-- Comments Section -->
+{% if comments %}
+<div class="container">
+    <div class="row">
+        <div class="col recipe-comments">
+            <div class="card">
+                <h3 class="card-header">Comments</h3>
+                <div class="card-body">
+                    {% for comment in comments %}
+                    <div>
+                        <p class="font-weight-bold">
+                            {{ comment.name }}
+                            <span class=" text-muted font-weight-normal">
+                                {{ comment.created_on }}
+                            </span>
+                        </p>
+                        {{ comment.body | linebreaks }}
+                        <hr>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 
 {% endblock content %}

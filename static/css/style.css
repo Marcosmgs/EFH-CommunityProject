@@ -178,3 +178,7 @@ hr.line-break {
 .recipe-description{
     margin-bottom: 20px;
 }
+
+.recipe-comments {
+    margin: 20px 0px 20px;
+}
