@@ -163,3 +163,15 @@ hr.line-break {
 .social-link {
     color: black;
 }
+
+/* Recipe Details View */
+
+.recipe-head {
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.recipe-head-image {
+    height: 300px;
+    overflow: hidden;
+}
