@@ -37,12 +37,21 @@
                         <li class="nav-item">
                             <a class="nav-link active navitems" aria-current="page" href="{% url 'home' %}">Home</a>
                         </li>
+                        {% if user.is_authenticated %}
                         <li class="nav-item">
-                            <a class="nav-link navitems" href="#">Register</a>
+                            <a class="nav-link navitems" href="#">MyBook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navitems" href="#">Login</a>
+                            <a class="nav-link navitems" href="{% url 'account_logout' %}">Logout</a>
                         </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link navitems" href="{% url 'account_signup' %}">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navitems" href="{% url 'account_login' %}">Login</a>
+                        </li>
+                        {% endif %}
                     </ul>
                     <span class="navbar-text">
                         Eating From Home
