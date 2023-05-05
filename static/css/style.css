@@ -175,3 +175,6 @@ hr.line-break {
     height: 300px;
     overflow: hidden;
 }
+.recipe-description{
+    margin-bottom: 20px;
+}
