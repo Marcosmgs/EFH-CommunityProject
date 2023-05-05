@@ -57,5 +57,29 @@
     </div>
 </div>
 
+<!-- Recipe igredients -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ingredients</h5>
+                    <p class="card-text"><span>{{ recipe.ingredients }}</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- Recipe method -->
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Method</h5>
+                    <p class="card-text"><span>{{ recipe.method }}</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
 
 {% endblock content %}
