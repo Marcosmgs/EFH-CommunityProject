@@ -66,7 +66,7 @@ class RecipeDetails(View):
         )
 
 
-class RecipeLike(view):
+class RecipeLike(View):
 
     def post(self, request, slug):
         recipe = get_object_or_404(Recipe, slug=slug)
@@ -75,5 +75,5 @@ class RecipeLike(view):
             post.likes.remove(request.user)
         else:
             post.likes.add(request.user)
-        
+
         return HttpResponseRedirect(reverse('recipe_detail', args=[slug]))
