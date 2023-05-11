@@ -119,3 +119,18 @@ class SingleRecipe(View):
                 "recipe": recipe,
             },
         )
+
+
+class UpdateRecipe(generic.UpdateView):
+    model = Recipe
+    template_name = 'edit_recipe.html'
+    form_class = AddRecipeForm
+    success_url = reverse_lazy("my_book")
+
+    def form_valid(self, form):
+        """
+        Method called when valid form data has been posted.
+        Signed user set as the author of the recipe.
+        """
+        form.instance.author = self.request.user
+        return super().form_valid(form)
