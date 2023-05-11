@@ -1,8 +1,9 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
 from .models import Recipe
-from .forms import CommentForm
+from .forms import CommentForm, AddRecipeForm
 
 
 class RecipeList(generic.ListView):
