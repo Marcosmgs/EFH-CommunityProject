@@ -39,7 +39,7 @@
                         </li>
                         {% if user.is_authenticated %}
                         <li class="nav-item">
-                            <a class="nav-link navitems" href="#">MyBook</a>
+                            <a class="nav-link navitems" href="{% url 'my_book' %}">MyBook</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navitems" href="{% url 'add_recipe' %}">AddRecipe</a>
