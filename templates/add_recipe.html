@@ -1,0 +1,16 @@
+{% extends "base.html" %} 
+{% block title %}Add Recipe{% endblock %}
+{% block content %}
+
+{% load crispy_forms_tags %}
+<div class="container mb-4">
+    <h1 class="page-title">Add Recipe To Your Book</h1>
+    <hr class="home-break">
+    <form method="post" style="margin-top: 1.3em;">
+        {{ form | crispy }}
+        {% csrf_token %}
+        <button type="submit" class="btn btn-md mt-3 btn-outline-success">Submit</button>
+    </form>
+</div>
+
+{%endblock%}
