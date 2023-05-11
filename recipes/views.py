@@ -134,3 +134,10 @@ class UpdateRecipe(generic.UpdateView):
         """
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+
+class DeleteRecipe(generic.DeleteView):
+    model = Recipe
+    template_name = 'delete_recipe.html'
+    form_class = AddRecipeForm
+    success_url = reverse_lazy("my_book")
