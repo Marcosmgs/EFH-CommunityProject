@@ -1,0 +1,60 @@
+{% extends 'base.html' %} {% block content %}
+
+{% load crispy_forms_tags %}
+
+<!-- Recipe details Head -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card mb-3 recipe-head">
+                <div class="recipe-head-image">
+                    {% if "placeholder" in recipe.featured_image.url %}
+                    <img src="https://res.cloudinary.com/ddhtujg2s/image/upload/v1680803324/cld-sample-4.jpg" width="100%">
+                    {% else %}
+                    <img src="{{ recipe.featured_image.url }}" class="card-img-top" alt="placeholder image">
+                    {% endif %}
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">{{ recipe.title }}</h4>
+                    <p class="card-text"><span><i class="fas fa-clock"></i></span><span> Prep Time: {{ recipe.prep_time }}min.</span></p>
+                    <p class="card-text"><span><i class="fas fa-clock"></i></span><span> Cook Time: {{ recipe.cooking_time }}min.</span></p>
+                    <p class="card-text"><small class="text-body-secondary"><span>Chef: {{ recipe.author }}</span></small></p>
+                    <p class="card-text"><small class="text-body-secondary"><span>Created: {{ recipe.created_on }}</span></small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Recipe description -->
+    <div class="row">
+        <div class="col">
+            <div class="card recipe-description">
+                <h5 class="card-header"><span>Description</span></h5>
+                <div class="card-body">
+                <p class="card-text"><span>{{ recipe.description }}</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Recipe igredients -->
+    <div class="row mb-4">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ingredients</h5>
+                    <p class="card-text"><span>{{ recipe.ingredients }}</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- Recipe method -->
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Method</h5>
+                    <p class="card-text"><span>{{ recipe.method }}</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

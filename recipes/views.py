@@ -104,3 +104,18 @@ class MyRecipeBook(generic.ListView):
     def get_queryset(self):
         """Override get_queryset to filter by user"""
         return Recipe.objects.filter(author=self.request.user)
+
+
+class SingleRecipe(View):
+
+    def get(self, request, slug, *args, **kwargs):
+        queryset = Recipe.objects.filter(status=0)
+        recipe = get_object_or_404(queryset, slug=slug)
+
+        return render(
+            request,
+            "single_recipe.html",
+            {
+                "recipe": recipe,
+            },
+        )
