@@ -42,6 +42,9 @@
                             <a class="nav-link navitems" href="#">MyBook</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link navitems" href="{% url 'add_recipe' %}">AddRecipe</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link navitems" href="{% url 'account_logout' %}">Logout</a>
                         </li>
                         {% else %}
