@@ -93,3 +93,14 @@ class AddRecipe(generic.CreateView):
         """
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+
+class MyRecipeBook(generic.ListView):
+    model = Recipe
+    queryset = Recipe.objects.order_by('created_on')
+    template_name = 'my_book.html'
+    paginate_by = 6
+
+    def get_queryset(self):
+        """Override get_queryset to filter by user"""
+        return Recipe.objects.filter(author=self.request.user)
