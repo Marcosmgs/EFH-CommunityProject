@@ -262,5 +262,11 @@ hr.line-break {
         margin: auto;
         padding: 25px;
     }
-
 }
+
+@media screen and (max-width: 300px) {
+    .recipe-head-image {
+        height: 150px;
+    }        
+}
+
