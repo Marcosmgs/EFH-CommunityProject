@@ -101,6 +101,7 @@ hr.bottom-nav-line {
     border: none;
     background-color: transparent;
     padding: 0px 10px;
+    width: 20rem;
 }
 
 .card-title-style {
@@ -229,4 +230,37 @@ hr.line-break {
     color: #E84610;
     background: transparent;
     border: none;
+}
+
+/* For medium screen sizes from 800px wide and down */
+@media screen and (max-width: 1200px) {
+    .card-block {
+        display: block;
+    }
+
+    .card-block1 {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #cover-text {
+        width: 30rem;
+    }
+}
+
+
+/* For medium screen sizes from 800px wide and down */
+@media screen and (max-width: 768px) {
+    .card-reason {
+        width: 15rem;
+        margin: auto;
+    }
+
+    #cover-text {
+        width: 30rem;
+        margin: auto;
+        padding: 25px;
+    }
+
 }
