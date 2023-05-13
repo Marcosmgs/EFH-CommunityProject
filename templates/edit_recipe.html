@@ -6,6 +6,7 @@
 <div class="container mb-4">
     <h1 class="page-title">Edit Recipe</h1>
     <hr class="home-break">
+    <!-- Update Recipe Form -->
     <form method="post" style="margin-top: 1.3em;">
         {{ form | crispy }}
         {% csrf_token %}
