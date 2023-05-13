@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404, reverse
+from django.contrib import messages
 from django.views import generic, View
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
@@ -92,6 +93,7 @@ class AddRecipe(generic.CreateView):
         Signed user set as the author of the recipe.
         """
         form.instance.author = self.request.user
+        messages.success(self.request, "Recipe Added successfully")
         return super().form_valid(form)
 
 
@@ -133,11 +135,18 @@ class UpdateRecipe(generic.UpdateView):
         Signed user set as the author of the recipe.
         """
         form.instance.author = self.request.user
+        messages.success(self.request, "Recipe updated successfully")
         return super().form_valid(form)
 
 
 class DeleteRecipe(generic.DeleteView):
     model = Recipe
     template_name = 'delete_recipe.html'
-    form_class = AddRecipeForm
     success_url = reverse_lazy("my_book")
+
+    def delete(self, request, *args, **kwargs):
+        """
+        This function is used to display sucess message given
+        """
+        messages.success(self.request, "Recipe deleted successfully")
+        return super(DeleteRecipe, self).delete(request, *args, **kwargs)
