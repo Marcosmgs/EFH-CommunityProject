@@ -7,6 +7,9 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 
 class Recipe(models.Model):
+    """
+    Model for Recipe
+    """
     title = models.CharField(max_length=200, unique=True)
     slug = AutoSlugField(populate_from='title', unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="community_recipe")
@@ -23,16 +26,25 @@ class Recipe(models.Model):
     likes = models.ManyToManyField(User, related_name='recipe_likes', blank=True)
 
     class Meta:
+        """
+        Display recipes by created_on in descending order
+        """
         ordering = ['-created_on']
 
     def __str__(self):
         return self.title
 
     def number_of_likes(self):
+        """
+        Display number of likes on a recipe
+        """
         return self.likes.count()
 
 
 class Comment(models.Model):
+    """
+    Model for Comment
+    """
     recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name='comments')
     name = models.CharField(max_length=80)
     email = models.EmailField()
@@ -41,6 +53,9 @@ class Comment(models.Model):
     approved = models.BooleanField(default=False)
 
     class Meta:
+        """
+        Display recipes by created_on in ascending order
+        """
         ordering = ['created_on']
 
     def __str__(self):

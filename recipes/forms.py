@@ -3,6 +3,10 @@ from django import forms
 
 
 class CommentForm(forms.ModelForm):
+    """
+    Form created to add commets to database
+    Get recipe model and choose fields to display
+    """
     class Meta:
         model = Comment
         fields = ('body',)
@@ -12,7 +16,8 @@ class AddRecipeForm(forms.ModelForm):
 
     class Meta:
         """
-        Get recipe model, choose fields to display
+        Form created to add and update recipes to database
+        Get recipe model and choose fields to display
         """
         model = Recipe
         fields = ('title', 'prep_time', 'cooking_time', 'description', 'ingredients', 'method', 'featured_image',)
