@@ -6,13 +6,6 @@
     <h1 class="page-title">My Recipe Book</h1>
     <p>Got some Inspiration? <a class="btn btn-outline-secondary btn-sm" href="{% url 'add_recipe' %}"> Add Recipe</a></p>
     <hr class="home-break">
-    {% if messages %}
-        <ul class="messages">
-            {% for message in messages %}
- 
-            {% endfor %}
-        </ul>
-    {% endif %}
     <div class="row">
         <!-- Recipe Entries Column -->
         <div class="col-12 mt-3 left">
