@@ -102,4 +102,9 @@ The rest of the imagery will be uploaded by users for their individual recipes.
 
 </details>
 
+## Agile Methodology
+
+Github project was used to manage the development process of this project using an agile approach. Find the link to the Github project [here](https://github.com/users/Marcosmgs/projects/3/views/1) 
+
+The  EFH Community User Stories is documented within the Github project. A Github issue was created for each user stories and allocated to the Project. The user stories were moved accordingly the application was been built.  
 
