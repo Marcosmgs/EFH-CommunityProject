@@ -45,7 +45,7 @@ The user Storie bellow were removed from the project due time was running short.
 ### Design
 With a minimalist and user-friendly interface, we have carefully crafted the design to ensure user can effortlessly navigate through the application and focus on what matters most: preparing a delicious and healthy lunch.
 
-**-Colour Scheme**
+**-COLOUR SCHEME**
 
 Color theme from Adobe Color
 
@@ -53,7 +53,7 @@ Color theme from Adobe Color
  Carefully chosen a soothing color palette that complements our mission of making your lunchtime routine a stress-free and pleasant experience.
  There are strong contrast between background colors and text throughout our web application, ensuring maximum readability and usability for all users.
  
- **-Typography**
+**-TYPOGRAPHY**
  
 Google Fonts was used to import the chosen fonts below for use in the application.
 
@@ -67,7 +67,8 @@ font-family: 'Oswald', sans-serif;
 
 ![Font Oswald](Docs/Readme_images/font_oswald.png)
         
- #### -Imagery
+**-IMAGERY**
+
 All imagery used within the site has been chosen from [pexel](https://www.pexels.com) taken by the photographers bellow:
 
 Photos by: 
@@ -77,3 +78,28 @@ Photos by:
 - [Nicola Barts](https://www.pexels.com/@nicola-barts/)
 
 The rest of the imagery will be uploaded by users for their individual recipes.
+
+**-WIREFRAMES**
+
+<details>
+<summary>Landing Page</summary>
+
+ ![Landing Page Frame]()
+
+</details>
+
+<details>
+<summary>My Book Page</summary>
+
+ ![My Book Frame]()
+
+</details>
+
+<details>
+<summary>Add Recipe Page</summary>
+
+ ![Add Recipe Frame]()
+
+</details>
+
+
