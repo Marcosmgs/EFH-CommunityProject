@@ -104,7 +104,29 @@ The rest of the imagery will be uploaded by users for their individual recipes.
 
 ## Agile Methodology
 
-Github project was used to manage the development process of this project using an agile approach. Find the link to the Github project [here](https://github.com/users/Marcosmgs/projects/3/views/1) 
+Github project was used to manage the development process of this project using an agile approach. 
+Find the link to the Github project [here](https://github.com/users/Marcosmgs/projects/3/views/1) 
 
-The  EFH Community User Stories is documented within the Github project. A Github issue was created for each user stories and allocated to the Project. The user stories were moved accordingly the application was been built.  
+The  EFH Community User Stories is documented within the Github project. A Github issue was created for each user stories and allocated to the Project. 
+The user stories were moved accordingly the application was been built.  
 
+## Data Model
+
+The views in this project have been organized into classes, following the OOP paradigm. 
+Each class represents a specific action or behavior, allowing for clear and modular code structure.
+
+To facilitate user interaction a comment feature was implemented using the Comment model. 
+Each comment is associated with a particular recipe through a foreign key relationship to ensures that a comment can only be linked to one recipe.
+
+[Django AllAuth](https://django-allauth.readthedocs.io/en/latest/) was used for user authentication. 
+This powerful authentication system provides a seamless and secure user login and registration process, enhancing the overall user experience.
+
+To enable users to create their own recipes, a Recipe model has been implemented. 
+The author of each recipe is represented by a foreign key reference to the User model, ensuring that each recipe is associated with a single author.
+
+Additionally a like model have implemented to allow users to express their appreciation for recipes in the inspiration section.
+
+The diagram below details the database schema.
+![ER Diagram Image]()
+
+Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemas for each of the models and how they are related.
