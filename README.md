@@ -53,3 +53,18 @@ Color theme from Adobe Color
  Carefully chosen a soothing color palette that complements our mission of making your lunchtime routine a stress-free and pleasant experience.
  There are strong contrast between background colors and text throughout our web application, ensuring maximum readability and usability for all users.
  
+ **-Typography**
+ 
+Google Fonts was used to import the chosen fonts below for use in the application.
+
+CSS rules to specify families
+
+font-family: 'Open Sans', sans-serif;
+
+![Font Open Sans]()
+
+font-family: 'Oswald', sans-serif;
+
+![Font Oswald]()
+        
+ 
