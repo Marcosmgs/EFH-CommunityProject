@@ -7,11 +7,14 @@
     <h1 class="page-title">Edit Recipe</h1>
     <hr class="home-break">
     <!-- Update Recipe Form -->
+    {% if user.is_authenticated %}
+    {% load cloudinary %}
     <form method="post" style="margin-top: 1.3em;">
         {{ form | crispy }}
         {% csrf_token %}
         <button type="submit" class="btn btn-md mt-3 btn-outline-success">Update</button>
     </form>
+    {% endif %}
 </div>
 
 {%endblock%}
