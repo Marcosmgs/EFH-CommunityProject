@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+{% if user.is_authenticated %}
 <!-- Recipes List Sections -->
 <div class="container-fluid">
     <h1 class="page-title">My Recipe Book</h1>
@@ -63,5 +65,6 @@
     </nav>
     {% endif %}
 </div>
+{% endif %}
 
 {%endblock%}
