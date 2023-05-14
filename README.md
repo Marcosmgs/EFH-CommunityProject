@@ -41,3 +41,15 @@ Our main visitor will be people who want to optimize their time and prioritize t
 The user Storie bellow were removed from the project due time was running short. The intentions are  to implement it in the future.
 - As a Site User I can publish my recipes so that I can share my own recipes
 - As a Site Admin I can approve or disapprove recipes so that I can moderate the content
+
+### Design
+With a minimalist and user-friendly interface, we have carefully crafted the design to ensure user can effortlessly navigate through the application and focus on what matters most: preparing a delicious and healthy lunch.
+
+**-Colour Scheme**
+
+Color theme from Adobe Color
+
+![Color Scheme Image](Docs/Readme_images/colour_palet.png)
+ Carefully chosen a soothing color palette that complements our mission of making your lunchtime routine a stress-free and pleasant experience.
+ There are strong contrast between background colors and text throughout our web application, ensuring maximum readability and usability for all users.
+ 
