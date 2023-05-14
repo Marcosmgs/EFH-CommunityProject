@@ -67,4 +67,13 @@ font-family: 'Oswald', sans-serif;
 
 ![Font Oswald](Docs/Readme_images/font_oswald.png)
         
- 
+ #### -Imagery
+All imagery used within the site has been chosen from [pexel](https://www.pexels.com) taken by the photographers bellow:
+
+Photos by: 
+
+- [Jess Ho](https://www.pexels.com/@jess-ho-51667983/)
+- [Kaju](https://www.pexels.com/@kaju-102944731/)
+- [Nicola Barts](https://www.pexels.com/@nicola-barts/)
+
+The rest of the imagery will be uploaded by users for their individual recipes.
