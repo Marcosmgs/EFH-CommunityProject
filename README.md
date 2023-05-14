@@ -61,10 +61,10 @@ CSS rules to specify families
 
 font-family: 'Open Sans', sans-serif;
 
-![Font Open Sans]()
+![Font Open Sans](Docs/Readme_images/font_open_san.png)
 
 font-family: 'Oswald', sans-serif;
 
-![Font Oswald]()
+![Font Oswald](Docs/Readme_images/font_oswald.png)
         
  
