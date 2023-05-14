@@ -84,21 +84,21 @@ The rest of the imagery will be uploaded by users for their individual recipes.
 <details>
 <summary>Landing Page</summary>
 
- ![Landing Page Frame]()
+ ![Landing Page Frame](Docs/Readme_images/landing_page_wireframe.png))
 
 </details>
 
 <details>
 <summary>My Book Page</summary>
 
- ![My Book Frame]()
+ ![My Book Frame](Docs/Readme_images/my_book_wireframe.png)
 
 </details>
 
 <details>
 <summary>Add Recipe Page</summary>
 
- ![Add Recipe Frame]()
+ ![Add Recipe Frame](Docs/Readme_images/add_recipe_wireframe.png)
 
 </details>
 
