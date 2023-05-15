@@ -149,3 +149,9 @@ Media
 * Code Institute for the project template CI Template
 * Imagery on this site were taken from [Pexels](https://www.pexels.com/)
 
+## Acknowledgments
+
+* My Mentor Jubril Akolade for his patience and helpful feedback.
+* Slack Community my fellow students, as well as mentors and CI staff.
+
+
