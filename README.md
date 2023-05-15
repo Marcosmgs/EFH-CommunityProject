@@ -251,37 +251,15 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * By clicking Cancel, users are redirected back to their personal recipe book, without deleting the recipe.
 ![Remove recipe](Docs/Readme_images/features/delete_recipe.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Future Features
 
 The following user stories were removed from the project as time was very short by the end of the project. The intentions are to implement it in the future.
 
 * As a Site User I can publish my recipes so that I can share my own recipes
 * As a Site Admin I can approve or disapprove recipes so that I can moderate the content
+
+## Testing
+All of the information regarding the testing can be found [here](https://github.com/Marcosmgs/EFH-CommunityProject/blob/main/TESTING.md).
 
 ## Languages
 
