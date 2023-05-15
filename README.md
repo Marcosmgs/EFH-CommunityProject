@@ -132,6 +132,13 @@ The diagram below details the database schema.
 
 Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemas for each of the models and how they are related.
 
+## Future Features
+
+The following user stories were removed from the project as time was very short by the end of the project. The intentions are to implement it in the future.
+
+* As a Site User I can publish my recipes so that I can share my own recipes
+* As a Site Admin I can approve or disapprove recipes so that I can moderate the content
+
 ## Languages
 
 * Python
