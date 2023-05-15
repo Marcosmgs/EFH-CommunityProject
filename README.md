@@ -132,6 +132,26 @@ The diagram below details the database schema.
 
 Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemas for each of the models and how they are related.
 
+## Features
+
+Header
+
+![Nav Bar All users](Docs/Readme_images/urls)
+
+**- Navigation Bar**
+* The navigation bar in EFH provides convenient access to different sections of the web application
+* The navigation bar is responsive and adapts to different screen sizes.
+* On smaller displays, such as mobile devices, it transforms into a hamburger menu, ensuring easy navigation and saving valuable screen space.
+* When user is logged in the navigation bar features my book and add recipes for registered users.
+
+![Nav Bar Auth User](Docs/Readme_images/urls)
+
+**- Logo**
+* It features a distinctive logo
+* An utensil icon with the text EFH representing Eating From Home to enhance brand recognition
+
+
+
 ## Future Features
 
 The following user stories were removed from the project as time was very short by the end of the project. The intentions are to implement it in the future.
