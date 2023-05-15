@@ -196,6 +196,33 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * The recipe details page also displays the total number of likes and comments received by the recipe.
 * ![Like and Unlike](Docs/Readme_images/features/like_and_comment_feature.png)
 
+**User Account Pages**
+
+<details>
+<summary>Sign Up</summary>
+ 
+ ![Sign Up image](Docs/Readme_images/features/sign_up.png)
+ 
+</details>
+<details>
+<summary>Log In </summary>
+ 
+ ![Log In image](Docs/Readme_images/features/sign_in.png)
+ 
+</details>
+<details>
+<summary>Log Out</summary>
+ 
+ ![Log Out image](Docs/Readme_images/features/sign_out.png)
+ 
+</details>
+
+
+
+
+
+
+
 
 
 
