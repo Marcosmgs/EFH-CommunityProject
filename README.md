@@ -217,7 +217,39 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
  
 </details>
 
+**My Book Section**
 
+* In the My Book section, authenticated users can manage and organize their collection of recipes.
+* The recipes are presented in a paginated view, displayed in visually appealing cards.
+* Each recipe card includes buttons for updating and deleting the recipe.
+* There is an add recipe button at the head to ensures easy access to the recipe creation functionality, promoting a better user experience
+![My Book Section](Docs/Readme_images/features/my_book.png)
+
+**- User Recipe Detail Page**
+* The User Recipe details page provides a guide created by the user on how to make a specific recipe.
+* The header includes essential details such as the recipe title, preparation time, cooking time, chefs name, and creation date.
+* Users can quickly access the recipe key information and decide if it suits their necessites 
+![Recipe Details](Docs/Readme_images/features/user_recipe_details.png)
+
+**- Add Recipe Form**
+* The Add Recipe page allows authenticated users filling out a form and add a recipe to their personal recipe book.
+* The form ensures that all mandatory fields are filled out before submission.
+* Users can easily add an image to their recipe by selecting the option to upload a featured image.
+![Add Recipe Form](Docs/Readme_images/features/Add_recipe.png)
+
+**- Edit Recipe Form**
+* The page presents a pre-populated form that displays all the information of the selected recipe.
+* After making the desired changes, users can submit the updated recipe by clicking the Update button.
+* The form maintains visual consistency with the rest of the website.
+![Updated recipe](Docs/Readme_images/features/edit_recipes.png)
+
+**- Delete Recipe**
+* The Delete Recipe page allow authenticated users to remove recipes from their personal recipe book.
+* Users are prompted with a confirmation message, asking if they are certain they want to delete the selected recipe.
+* The page displays a Delete button, calling the user attention to ensure that users are fully aware of the action they are about to take.
+* To provide an opportunity for users to reconsider their choice, a button labeled Cancel is included.
+* By clicking Cancel, users are redirected back to their personal recipe book, without deleting the recipe.
+![Remove recipe](Docs/Readme_images/features/delete_recipe.png)
 
 
 
