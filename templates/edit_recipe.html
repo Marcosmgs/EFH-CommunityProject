@@ -9,7 +9,7 @@
     <!-- Update Recipe Form -->
     {% if user.is_authenticated %}
     {% load cloudinary %}
-    <form method="post" style="margin-top: 1.3em;">
+    <form method="post" style="margin-top: 1.3em;" enctype='multipart/form-data'>
         {{ form | crispy }}
         {% csrf_token %}
         <button type="submit" class="btn btn-md mt-3 btn-outline-success">Update</button>
