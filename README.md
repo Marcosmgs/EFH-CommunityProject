@@ -132,6 +132,13 @@ The diagram below details the database schema.
 
 Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemas for each of the models and how they are related.
 
+## Languages
+
+* Python
+* Javascript
+* HTML
+* CSS
+
 ## Credits
 
 Code
