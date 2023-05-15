@@ -170,6 +170,22 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * There are four main points highlighted through visually appealing cards: Healthy Habits, Inspiration, Save Time and Community.
 ![Why Join Us](Docs/Readme_images/features/reason_section.png)
 
+**- Inspiration Corner**
+* In the Inspiration Corner section, EFH presents a delightful collection of recipes to inspire users.
+* Each recipe card displays an mouthwatering image that leads users to explore further.
+* The name of the recipe chef is displayed, giving credit to chefs expertise.
+* A brief description of the recipe highlights key ingredients and encourages users to click for more details.
+* Pagination navigation is provided at the bottom of the section, allowing easy browsing through the recipe list.
+![Inspiration Corner](Docs/Readme_images/features/inspiration_corner.png)
+
+
+
+
+
+
+
+
+
 ## Future Features
 
 The following user stories were removed from the project as time was very short by the end of the project. The intentions are to implement it in the future.
