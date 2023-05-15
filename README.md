@@ -178,6 +178,37 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * Pagination navigation is provided at the bottom of the section, allowing easy browsing through the recipe list.
 ![Inspiration Corner](Docs/Readme_images/features/inspiration_corner.png)
 
+**- Recipe Detail Page**
+* The Recipe Details page provides a guide on how to create a delicious dish.
+* At the top of the page, an mouthwatering image of the dish sets the stage.
+* The header also includes essential details so users can quickly grasp the recipe key information and decide if it suits their preferences.
+![Recipe Home Page Details](Docs/Readme_images/features/recipe_details.png)
+
+**- Comments Section**
+* Users have the opportunity to engage with the community and share their thoughts on the recipe.
+* The comments section allows users to read and leave comments.
+![Comments Section](Docs/Readme_images/features/recipes_comments.png)
+
+**- Like/Unlike**
+
+* The Like Features on page recipe details which allows users to express their appreciation for a particular recipe.
+* Users can find a heart shaped icon next to the recipe details.
+* The recipe details page also displays the total number of likes and comments received by the recipe.
+* ![Like and Unlike](Docs/Readme_images/features/like_and_comment_feature.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
