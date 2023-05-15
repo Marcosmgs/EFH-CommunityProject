@@ -136,28 +136,33 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 
 **Header**
 
-![Nav Bar All users](Docs/Readme_images/features/navbar_allusers.png)
-
 **- Navigation Bar**
 * The navigation bar in EFH provides convenient access to different sections of the web application
 * The navigation bar is responsive and adapts to different screen sizes.
 * On smaller displays, such as mobile devices, it transforms into a hamburger menu, ensuring easy navigation and saving valuable screen space.
 * When user is logged in the navigation bar features my book and add recipes for registered users.
-
 ![Nav Bar Auth User](Docs/Readme_images/features/navbar_auth_user.png)
 
 **- Logo**
 * It features a distinctive logo
 * An utensil icon with the text EFH representing Eating From Home to enhance brand recognition
+![Nav Bar All users](Docs/Readme_images/features/navbar_allusers.png)
 
 **Footer**
 
-![Footer](Docs/Readme_images/features/footer.png)
-* The footer section of EFH is consistent across all web pages, providing important information and encouraging user engagement.
+* The footer section of EFH is displayed across all web pages, providing important information and encouraging user engagement.
 * To enhance user interaction, social media icons are included, allowing users to easily connect with EFH on various platforms.
 * Social media icons link to EFH's official social media pages, providing users with additional avenues to stay connected, receive updates, and access more content.
+![Footer](Docs/Readme_images/features/footer.png)
 
+**Home Page**
 
+**- Welcome Section**
+
+* The hero section of EFH homepage sets the stage for an exciting culinary journey.
+* With a captivating background image, the section immediately grabs the user attention.
+* Overlaid on the image is a transparent text box that contains our mission and an welcoming message.
+![Welcome Section](Docs/Readme_images/features/welcome_section.png)
 
 ## Future Features
 
