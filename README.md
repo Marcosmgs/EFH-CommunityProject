@@ -131,3 +131,21 @@ The diagram below details the database schema.
 ![ER Diagram Image](Docs/Readme_images/er_model_diagram.png)
 
 Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemas for each of the models and how they are related.
+
+## Credits
+
+Code
+* Code Institute for the Walkthrough Projects
+* Tutorial on Hello [Django project](https://github.com/Code-Institute-Solutions/Django3blog) from Code Institute.
+* Code Institute for the CI Python Linter used throughout the project at every stage of the building.
+*  [AutoSlugField](https://django-extensions.readthedocs.io/en/latest/field_extensions.html)
+* [StackOverflow ](https://stackoverflow.com/)
+
+Content
+* Recipes were taken from [BBC Good Food](https://www.bbcgoodfood.com/)
+
+Media
+* Code Institute for the README.md file tutorial.
+* Code Institute for the project template CI Template
+* Imagery on this site were taken from [Pexels](https://www.pexels.com/)
+
