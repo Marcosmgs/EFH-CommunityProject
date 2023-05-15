@@ -139,6 +139,53 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * HTML
 * CSS
 
+## DEPLOYMENT
+
+This website has been deployed to [Heroku](https://dashboard.heroku.com/apps) following these steps:
+
+**Create the Heroku App**
+
+1. Log in to your Heroku account and, after clicking on the New button in the top-right corner of the page, select the Create new app option from the dropdown menu.
+2. Insert an app name and choose a region (Europe or United States) and click on the Create app button.
+3. From the Settings, click "Reveal Config Vars"
+4. Add a Config Var called DATABASE_URL and give it the value of the ElephantSQL database URL created.
+5. Add a Config Var called PORT with value 8000
+
+**Attach the Postgres database**
+
+6. In the terminal, create the env.py file on the top level directory, setting in it the environment variables and adding in the secret key
+7. In Heroku, add SECRET_KEY to Config Vars
+8. PREPARE THE ENVIRONMENT AND SETTINGS.PY FILE
+9. Reference env.py file in settings.py file
+10. Replace the insecure secret key, linking it with the one declared in the Config Vars in Heroku, comment out the default database section and add the new database section the links to the DATABASE_URL in Heroku
+11. Save all files and in the terminal make the migrations
+
+**Get static and media files stored in Cloudinary**
+
+12. Copy the CLOUDINARY_URL from Cloudinary and add it to the env.py file
+13. Add CLOUDINARY_URL Config Var in Heroku
+14. Add DISABLE_COLLECTSTATIC with value of 1 to the Config Vars in Heroku
+15. In settings.py file, add Cloudinary Libraries to the INSTALLED_APPS
+16. Tell Django to use Cloudinary to store media and static files
+17. Link file to the templates directory in Heroku
+18. Change the templates directory to TEMPLATES_DIR
+19. Add Heroku Hostname to ALLOWED_HOSTS
+
+**Create Files**
+
+20. Create 3 new folders on the top level directory: media, static, templates
+21. Create a Procfile on the top level directory
+22. In the Procfile, add the code: web: gunicorn PROJ_NAME.wsgi
+23. Save all files; add, commit and push to Github
+
+**Deployment**
+
+24. **_IMPORTANT_**: Set Debug to False in settings.py file
+25. Add the setting X-FRAME_OPTIONS = 'SAMEORIGIN' to settings.py file for Summernote
+26. In Heroku, delete the Config Var DISABLE_COLLECTSTATIC
+27. Go to the Deploy Tab and, scrolling down, either Enable Automatic Deploys or Manually Deploy by selecting the chosen branch and clicking on Deploy Branch
+28. VIEW LIVE SITE The site is up and running and can be viewed by clicking on the Open app button on the top right side of the project's window on Heroku.
+
 ## Credits
 
 Code
@@ -160,5 +207,3 @@ Media
 
 * My Mentor Jubril Akolade for his patience and helpful feedback.
 * Slack Community my fellow students, as well as mentors and CI staff.
-
-
