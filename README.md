@@ -134,7 +134,7 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 
 ## Features
 
-Header
+**Header**
 
 ![Nav Bar All users](Docs/Readme_images/features/navbar_allusers.png)
 
@@ -149,6 +149,13 @@ Header
 **- Logo**
 * It features a distinctive logo
 * An utensil icon with the text EFH representing Eating From Home to enhance brand recognition
+
+**Footer**
+
+![Footer](Docs/Readme_images/features/footer.png)
+* The footer section of EFH is consistent across all web pages, providing important information and encouraging user engagement.
+* To enhance user interaction, social media icons are included, allowing users to easily connect with EFH on various platforms.
+* Social media icons link to EFH's official social media pages, providing users with additional avenues to stay connected, receive updates, and access more content.
 
 
 
