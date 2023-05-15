@@ -164,6 +164,12 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * Overlaid on the image is a transparent text box that contains our mission and an welcoming message.
 ![Welcome Section](Docs/Readme_images/features/welcome_section.png)
 
+**- Why Join Us Section**
+* The Reasons to Join Us section is featured on the homepage.
+* It displays our main points that make EFH community interesting and encourages users to join and engage.
+* There are four main points highlighted through visually appealing cards: Healthy Habits, Inspiration, Save Time and Community.
+![Why Join Us](Docs/Readme_images/features/reason_section.png)
+
 ## Future Features
 
 The following user stories were removed from the project as time was very short by the end of the project. The intentions are to implement it in the future.
