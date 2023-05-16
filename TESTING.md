@@ -135,6 +135,15 @@
 ## Browser Testing
 * The Website was tested on Google Chrome, Firefox, Safari browsers with no issues noted.
 
+## Bugs
+
+### Fixed Bugs
+Django User Form not uploading featured image. No error was showing, looking into stackoverflow I have found this [information](https://stackoverflow.com/questions/29171077/imagefield-not-saving-images-in-modelform-django-python) which was very helpful to fix the issue.
+
+Herokuapp URL page not displaying on am I responsive frames. Error showing in the mock screens was **recipes-for-me-herokuapp.com refused to connect** this [link](https://code-institute-room.slack.com/archives/C026PTF46F5/p1669748686922019?thread_ts=1669744943.768489&cid=C026PTF46F5) was very helpful to fix the issue.
+
+### Unfixed Bugs
+No Unfixed Bugs left behind ;)
 
 ## Code Validation
 
