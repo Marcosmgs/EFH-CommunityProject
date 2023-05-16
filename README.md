@@ -8,7 +8,37 @@ In a work-from-home environment, finding time to prepare healthy meals can be ch
 
 - - -
 
-## CONTENTS (summary)
+## Table Of Contents
+* [User Experience (UX)](#user-experience-ux)
+  * [User Stories](#user-stories)
+  * [Design](#design)
+  * [Colour Scheme](#-colour-scheme)
+  * [Typography](#-typography)
+  * [Imagery](#-imagery)
+* [Agile Methodology](#agile-methodology)
+* [Data Model](#data-model)
+* [Features](#features)
+  * [Header](#header)
+  * [Footer](#footer)
+  * [Home Page](#home-page)
+  * [Welcome Section](#--welcome-section)
+  * [Why Join Us Section](#--why-join-us-section)
+  * [Inspiration Corner](#--inspiration-corner)
+  * [Recipe Detail Page](#--recipe-detail-page)
+  * [Comments Section](#--comments-section)
+  * [Like/Unlike](#--likeunlike)
+  * [User Account Pages](#user-account-pages)
+  * [My Book Section](#my-book-section)
+  * [User Recipe Detail Page](#--user-recipe-detail-page)
+  * [Add Recipe Form](#--add-recipe-form)
+  * [Edit Recipe Form](#--edit-recipe-form)
+  * [Delete Recipe](#--delete-recipe)
+* [Future Features](#future-features)
+* [Testing](#testing)
+* [Languages](#languages)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgments](#acknowledgments)   
 
 - - -
 
