@@ -123,6 +123,14 @@
 | Log Out Confirmation  |  |  |  |
 | Logout button  | Click  | Content  | Content  |
 
+## Admin panel
+* The Recipe, Comment are successfully registered in the admin panel.
+
+* Admins have full access to CRUD functionality for all recipes and comments in the admin panel.
+
+* Admins also have full moderation over the comments, comments can also be approved or deleted.
+
+* Django Allauth works successfully and the admins can change users permissions.
 
 
 ## Code Validation
