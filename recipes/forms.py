@@ -20,4 +20,11 @@ class AddRecipeForm(forms.ModelForm):
         Get recipe model and choose fields to display
         """
         model = Recipe
-        fields = ('title', 'prep_time', 'cooking_time', 'description', 'ingredients', 'method', 'featured_image',)
+        fields = (
+            'title',
+            'prep_time',
+            'cooking_time',
+            'description',
+            'ingredients',
+            'method',
+            'featured_image',)
