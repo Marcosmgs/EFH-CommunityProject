@@ -1,6 +1,6 @@
 # EFH - Eating From Home
 
-![Am I Responsive]
+![Am I Responsive](Docs/Readme_images/am_i_responsive.png)
 
 EFH - Eating From Home is a web application built with Django that aims to help individuals working from home save time and eat healthier by providing meals inspirations in a platform where you can create and manage your own recipes just like a granny's book.
 
