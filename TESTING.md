@@ -1,10 +1,27 @@
 # EFH - Project app Testing
 ---
 ## Table of Contents
-* [Manual Testing](manual-testing)
+* [Manual Testing](#manual-testing)
   * [Navigation](#navigation)
   * [Index Page](#index-page)
-
+  * [My Book Page](#my-book-pagewhen-the-user-is-authenticated)
+  * [Recipe Details Page](#recipe-details-page)
+  * [User Recipe Details Page](#user-recipe-details-pagewhen-the-user-is-authenticated)
+  * [Add Recipe Page](#add-recipe-pagewhen-the-user-is-authenticated)
+  * [Edit Recipe](#edit-recipewhen-the-user-is-authenticated)
+  * [Delete Recipe](#delete-recipewhen-the-user-is-authenticated)
+  * [Django All Auth Pages](#django-all-auth-pages)
+  * [Admin panel](#admin-panel)
+* [Browser Testing](#browser-testing)
+* [Bugs](#bugs)
+  * [Fixed Bugs](#fixed-bugs)
+  * [Unfixed Bugs](#unfixed-bugs)
+* [Code Validation](#code-validation)
+  * [W3C HTML VALIDATION](#w3c-html-validation)
+  * [Jigsaw CSS VALIDATION](#jigsaw-css-validation)
+  * [JSHint JavaScript VALIDATION](#jshint-javascript-validation)
+  * [CI Python Linter Python VALIDATION](#ci-python-linter-python-validation)
+  * [LIGHTHOUSE REPORTS](#lighthouse-reports)
 ---
 
 ## Manual Testing
