@@ -75,3 +75,14 @@ All the main Python files were run through the [CI Python Linter Validator](htt
 **- views.py**
 * Erros = None.
 * ![test views.py](Docs/Readme_images/testing/views_test_python.png)
+
+## LIGHTHOUSE REPORTS
+EFH app home page have been tested for Performance, Accessibility, Best Practices and SEO using [Lighthouse Chrome Developer Tool](https://developer.chrome.com/docs/lighthouse/overview/).
+The lighthouse scores look very good overall, with some things that could be improved. A future implementation would be to convert all images to the webp format.
+
+**- Home Page**
+* Performance = 72
+* Accessibility = 98
+* Best Practices = 100
+* SEO = 100
+* ![lighthouse test](Docs/Readme_images/testing/lighthouse_test_homepage.png)
