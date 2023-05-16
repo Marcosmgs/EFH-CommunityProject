@@ -47,3 +47,7 @@ All html pages have been run through the [W3C HTML Validator](https://validator
 * Warnings = None.
 * ![signup html test](Docs/Readme_images/testing/sign_up_test_html.png)
 
+## Jigsaw CSS VALIDATION
+No errors or warnings are returned when passing the styles.css through the [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+* ![css testing image](Docs/Readme_images/testing/css_validator_test_results.png)
