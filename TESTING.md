@@ -2,6 +2,26 @@
 
 ## Content
 
+## Manual Testing
+
+### Navigation
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Home link  | Click on the "Home" link in the navigation bar  | The page should navigate to the home page  | Pass  |
+| MyBook link (when the user is authenticated) | Click on the MyBook link in the navigation bar  | The page should navigate to the users book page  | Pass  |
+| AddRecipe link (when the user is authenticated)  | Click on the AddRecipe link in the navigation bar  | The page should navigate to the add recipe page  | Pass  |
+| Logout link (when the user is authenticated)  | Click on the Logout link in the navigation bar  | The user should be logged out and redirected to the logout page  | Pass  |
+| Register link (when the user is not authenticated)  | Click on the Register link in the navigation bar  | The page should navigate to the registration page  | Pass  |
+| Login link (when the user is not authenticated)  | Click on the Login link in the navigation bar  | The page should navigate to the login page  | Pass  |
+
+
+
+
+
+
+
+
+
 ## Code Validation
 
 ### W3C HTML VALIDATION
