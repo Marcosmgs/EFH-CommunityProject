@@ -57,6 +57,13 @@
 | Display Method  | Open users recipe details page  | The recipe method is correctly displayed on the page  | Pass  |
 | Image Display  | Open users recipe details page  | The placeholder image or featured image is correctly displayed on the page  | Pass  |
 
+### Add Recipe Page(when the user is authenticated) 
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Form Rendering  | Open Add Recipe page  | The form should be rendered correctly with all the specified fields  | Pass  |
+| Submiting Form  | Fill in and Submit the Add Recipe Form  | Redirects User to My Book and return message that the form data is successfully submitted  | Pass  |
+| Field Validation  | Submit the form without filling in any of the required fields  | Redirect to field or error messages are displayed for required field that was left empty  | Pass  |
+| File Upload  | Select a file for the featured image field  | The selected file for the featured image field is uploaded successfully  | Pass  |
 
 
 ## Code Validation
