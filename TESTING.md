@@ -1,6 +1,11 @@
 # EFH - Project app Testing
+---
+## Table of Contents
+* [Manual Testing](manual-testing)
+  * [Navigation](#navigation)
+  * [Index Page](#index-page)
 
-## Content
+---
 
 ## Manual Testing
 
