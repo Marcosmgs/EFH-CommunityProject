@@ -19,7 +19,8 @@ class RecipeList(generic.ListView):
 
 class RecipeDetails(View):
     """
-    This view is used to display recipe details including comments filter likes.
+    This view is used to display recipe details
+    including comments filter likes.
     It also includes the comment form and add to meal plan form
     """
     def get(self, request, slug, *args, **kwargs):
