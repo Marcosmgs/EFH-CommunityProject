@@ -132,6 +132,9 @@
 
 * Django Allauth works successfully and the admins can change users permissions.
 
+## Browser Testing
+* The Website was tested on Google Chrome, Firefox, Safari browsers with no issues noted.
+
 
 ## Code Validation
 
