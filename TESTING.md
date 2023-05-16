@@ -73,6 +73,16 @@
 | Field Validation  | Update the form without filling in any of the required fields  | Redirect to field or error messages are displayed for required field that was left empty  | Pass  |
 | File Upload Update  | Select a file for the featured image field  | The selected file for the featured image field is uploaded successfully  | Pass  |
 
+### Delete Recipe(when the user is authenticated) 
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Delete Button  | Click  | Recipe is removed from users book page  | Pass  |
+| Delete Button  | Click  | Success message appears to user saying that the recipe has been successfully deleted  | Content  |
+| Delete Button  | Click  | The page should navigate to the my book page   | Pass  |
+| Cancel Button  | Click  | The page should navigate to the my book page  | Pass  |
+
+
+
 
 
 
