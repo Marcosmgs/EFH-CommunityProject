@@ -11,9 +11,9 @@
             <div class="card mb-3 recipe-head">
                 <div class="recipe-head-image">
                     {% if "placeholder" in recipe.featured_image.url %}
-                    <img src="https://res.cloudinary.com/ddhtujg2s/image/upload/v1680803324/cld-sample-4.jpg" width="100%">
+                    <img src="https://res.cloudinary.com/ddhtujg2s/image/upload/v1680803324/cld-sample-4.jpg" width="100%" alt="placeholder image">
                     {% else %}
-                    <img src="{{ recipe.featured_image.url }}" class="card-img-top" alt="placeholder image">
+                    <img src="{{ recipe.featured_image.url }}" class="card-img-top" alt="recipe featured image">
                     {% endif %}
                 </div>
                 <div class="card-body">
