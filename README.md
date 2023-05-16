@@ -15,6 +15,7 @@ In a work-from-home environment, finding time to prepare healthy meals can be ch
   * [Colour Scheme](#-colour-scheme)
   * [Typography](#-typography)
   * [Imagery](#-imagery)
+  * [Wireframes](#-wireframes)
 * [Agile Methodology](#agile-methodology)
 * [Data Model](#data-model)
 * [Features](#features)
@@ -110,6 +111,8 @@ Photos by:
 The rest of the imagery will be uploaded by users for their individual recipes.
 
 #### **-WIREFRAMES**
+
+Wireframes were created using [Figma](https://www.figma.com/)
 
 <details>
 <summary>Landing Page</summary>
