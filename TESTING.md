@@ -45,8 +45,17 @@
 | Display Comments  | Open the recipe details page that has comments  | All comments are correctly displayed with the commenter's name, comment content, and creation date  | Pass  |
 | Submit Comment  | If authenticated, leave a comment using the comment form  | The comment is displayed in the comments section, awaiting approval  | Pass  |
 | Like Button Functionality  | If authenticated, click the like button  | The like count increases, and the button reflects the users action liked or unliked  | Pass  |
-| Image Display  | Open the recipe details page that has a placeholder image | The placeholder image or featured image is correctly displayed on the page  | Pass  |
+| Image Display  | Open the recipe details page | The placeholder image or featured image is correctly displayed on the page  | Pass  |
 | Proper Formatting and Styling  | Open the recipe details page on different devices with varying screen sizes  | The page layout, formatting, and styling are consistent and responsive on different devices  | Pass  |
+
+### User Recipe Details Page(when the user is authenticated) 
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Display Recipe Details  | Open users recipe details page  | All the recipe details are correctly displayed on the page  | Pass  |
+| Recipe Description  | Open users recipe details page  | The recipe description is correctly displayed on the page  | Pass  |
+| Display Ingredients  | Open users recipe details page  | The recipe ingredients are correctly displayed on the page  | Pass  |
+| Display Method  | Open users recipe details page  | The recipe method is correctly displayed on the page  | Pass  |
+| Image Display  | Open users recipe details page  | The placeholder image or featured image is correctly displayed on the page  | Pass  |
 
 
 
