@@ -17,7 +17,7 @@ In a work-from-home environment, finding time to prepare healthy meals can be ch
 An user for EFH app would likely be an adult professional working from home, looking to save time and make healthier food choices, maintaining a healthy lifestyle while working. 
 Our main visitor will be people who want to optimize their time and prioritize their well-being.
 
-### User Stories - Epics
+### User Stories
 **Site Administration**
 - As a Site Admin I can approve or disapprove comments so that I can moderate comments
 - As a Site Admin I can create, read, update and delete recipes so that I can manage my community content 
