@@ -21,10 +21,19 @@
 | Reasons to Join Us  | Open the index page  | Four cards should be displayed with titles and descriptions  | Pass  |
 | Inspiration Corner  | Open the index page  | A list of recipe cards should be displayed. Each card should contain an image(placeholder or a recipe featured image) author name, recipe title, excerpt, creation date and the number of likes.| Pass  |
 | Pagination List  | If the recipe list has more than the default number of entries per page  | Pagination links should be displayed at the bottom, allowing navigation to previous and next pages  | Pass  |
-| Pagination  | If the recipe list has fewer entries than the default number  | No pagination links should be displayed  | Pass  |
+| Pagination Single  | If the recipe list has fewer entries than the default number  | No pagination links should be displayed  | Pass  |
 | Title Recipe Details Link  | Click on a recipe card title  | The page should navigate to the detailed view of the clicked recipe  | Pass  |
 
-
+### My Book Page(when the user is authenticated) 
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Add Recipe Button  | Click on the "Add Recipe" button  | The user should be redirected to the add recipe page  | Pass  |
+| Recipe List  | Open the my book page  | A list of recipe cards should display, each card contain an image(placeholder or featured image) author name, recipe title, options to edit and delete the recipe, and the creation date  | Pass  |
+| Pagination List  | If the user book has more than the default number of entries per page  | Pagination links should be displayed at the bottom, allowing navigation to previous and next pages  | Pass  |
+| Pagination Single  | If user book list has fewer entries than the default number  | No pagination links should be displayed  | Pass  |
+| Recipe details link  | Click on a recipe cards title   | The page should navigate to the detailed view of the clicked recipe  | Pass  |
+| Edit Recipe Button  | Click on the Edit button of a recipe card  | The user should be redirected to the edit recipe page for the selected recipe  | Pass  |
+| Delete Recipe Button  | Click on the Delete button of a recipe card  | The user should be prompted to confirm the deletion of the recipe  | Pass  |
 
 
 
