@@ -12,7 +12,8 @@ class Recipe(models.Model):
     """
     title = models.CharField(max_length=200, unique=True)
     slug = AutoSlugField(populate_from='title', unique=True)
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="community_recipe")
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="community_recipe")
     updated_on = models.DateTimeField(auto_now=True)
     description = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
@@ -23,7 +24,8 @@ class Recipe(models.Model):
     featured_image = CloudinaryField('image', default='placeholder')
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)
-    likes = models.ManyToManyField(User, related_name='recipe_likes', blank=True)
+    likes = models.ManyToManyField(
+        User, related_name='recipe_likes', blank=True)
 
     class Meta:
         """
@@ -45,7 +47,8 @@ class Comment(models.Model):
     """
     Model for Comment
     """
-    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name='comments')
+    recipe = models.ForeignKey(
+        Recipe, on_delete=models.CASCADE, related_name='comments')
     name = models.CharField(max_length=80)
     email = models.EmailField()
     body = models.TextField()
