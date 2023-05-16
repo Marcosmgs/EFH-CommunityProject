@@ -65,6 +65,16 @@
 | Field Validation  | Submit the form without filling in any of the required fields  | Redirect to field or error messages are displayed for required field that was left empty  | Pass  |
 | File Upload  | Select a file for the featured image field  | The selected file for the featured image field is uploaded successfully  | Pass  |
 
+### Edit Recipe(when the user is authenticated) 
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Display Update Recipe Form  | Open the page to Update Recipe form  | The Update Recipe form is displayed correctly with all the required fields pre populated with the info already saved.  | Pass  |
+| Updating Form  | Fill in and Update the Update Recipe Form  | Redirects User to My Book and return message that the form data is successfully updated  | Pass  |
+| Field Validation  | Update the form without filling in any of the required fields  | Redirect to field or error messages are displayed for required field that was left empty  | Pass  |
+| File Upload Update  | Select a file for the featured image field  | The selected file for the featured image field is uploaded successfully  | Pass  |
+
+
+
 
 ## Code Validation
 
