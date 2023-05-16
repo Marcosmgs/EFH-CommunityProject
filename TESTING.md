@@ -27,7 +27,7 @@
 ### My Book Page(when the user is authenticated) 
 | Test  | Action | Expected Results  | Pass/Fail |
 | ------------- | ------------- | ------------- | ------------- |
-| Add Recipe Button  | Click on the "Add Recipe" button  | The user should be redirected to the add recipe page  | Pass  |
+| Add Recipe Button  | Click on the Add Recipe button  | The user should be redirected to the add recipe page  | Pass  |
 | Recipe List  | Open the my book page  | A list of recipe cards should display, each card contain an image(placeholder or featured image) author name, recipe title, options to edit and delete the recipe, and the creation date  | Pass  |
 | Pagination List  | If the user book has more than the default number of entries per page  | Pagination links should be displayed at the bottom, allowing navigation to previous and next pages  | Pass  |
 | Pagination Single  | If user book list has fewer entries than the default number  | No pagination links should be displayed  | Pass  |
@@ -35,6 +35,18 @@
 | Edit Recipe Button  | Click on the Edit button of a recipe card  | The user should be redirected to the edit recipe page for the selected recipe  | Pass  |
 | Delete Recipe Button  | Click on the Delete button of a recipe card  | The user should be prompted to confirm the deletion of the recipe  | Pass  |
 
+### Recipe Details Page
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Display Recipe Details  | Open the recipe details page  | All the recipe details are correctly displayed on the page  | Pass  |
+| Recipe Description  | Open the recipe details page  | The recipe description is correctly displayed on the page  | Pass  |
+| Display Ingredients  | Open the recipe details page  | The recipe ingredients are correctly displayed on the page  | Pass  |
+| Display Method  | Open the recipe details page  | The recipe method is correctly displayed on the page  | Pass  |
+| Display Comments  | Open the recipe details page that has comments  | All comments are correctly displayed with the commenter's name, comment content, and creation date  | Pass  |
+| Submit Comment  | If authenticated, leave a comment using the comment form  | The comment is displayed in the comments section, awaiting approval  | Pass  |
+| Like Button Functionality  | If authenticated, click the like button  | The like count increases, and the button reflects the users action liked or unliked  | Pass  |
+| Image Display  | Open the recipe details page that has a placeholder image | The placeholder image or featured image is correctly displayed on the page  | Pass  |
+| Proper Formatting and Styling  | Open the recipe details page on different devices with varying screen sizes  | The page layout, formatting, and styling are consistent and responsive on different devices  | Pass  |
 
 
 
