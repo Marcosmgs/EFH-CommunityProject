@@ -7,15 +7,22 @@
 ### Navigation
 | Test  | Action | Expected Results  | Pass/Fail |
 | ------------- | ------------- | ------------- | ------------- |
-| Home link  | Click on the "Home" link in the navigation bar  | The page should navigate to the home page  | Pass  |
+| Home link  | Click on the Home link in the navigation bar  | The page should navigate to the home page  | Pass  |
 | MyBook link (when the user is authenticated) | Click on the MyBook link in the navigation bar  | The page should navigate to the users book page  | Pass  |
 | AddRecipe link (when the user is authenticated)  | Click on the AddRecipe link in the navigation bar  | The page should navigate to the add recipe page  | Pass  |
 | Logout link (when the user is authenticated)  | Click on the Logout link in the navigation bar  | The user should be logged out and redirected to the logout page  | Pass  |
 | Register link (when the user is not authenticated)  | Click on the Register link in the navigation bar  | The page should navigate to the registration page  | Pass  |
 | Login link (when the user is not authenticated)  | Click on the Login link in the navigation bar  | The page should navigate to the login page  | Pass  |
 
-
-
+### Index Page
+| Test  | Action | Expected Results  | Pass/Fail |
+| ------------- | ------------- | ------------- | ------------- |
+| Welcome Message  | Open the index page  | Welcome to Eating From Home!! along with the description should be displayed.  | Pass  |
+| Reasons to Join Us  | Open the index page  | Four cards should be displayed with titles and descriptions  | Pass  |
+| Inspiration Corner  | Open the index page  | A list of recipe cards should be displayed. Each card should contain an image(placeholder or a recipe featured image) author name, recipe title, excerpt, creation date and the number of likes.| Pass  |
+| Pagination List  | If the recipe list has more than the default number of entries per page  | Pagination links should be displayed at the bottom, allowing navigation to previous and next pages  | Pass  |
+| Pagination  | If the recipe list has fewer entries than the default number  | No pagination links should be displayed  | Pass  |
+| Title Recipe Details Link  | Click on a recipe card title  | The page should navigate to the detailed view of the clicked recipe  | Pass  |
 
 
 
