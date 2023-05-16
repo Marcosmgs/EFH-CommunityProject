@@ -45,7 +45,7 @@ The user Storie bellow were removed from the project due time was running short.
 ### Design
 With a minimalist and user-friendly interface, we have carefully crafted the design to ensure user can effortlessly navigate through the application and focus on what matters most: preparing a delicious and healthy lunch.
 
-**-COLOUR SCHEME**
+#### **-COLOUR SCHEME**
 
 Color theme from Adobe Color
 
@@ -53,7 +53,7 @@ Color theme from Adobe Color
  Carefully chosen a soothing color palette that complements our mission of making your lunchtime routine a stress-free and pleasant experience.
  There are strong contrast between background colors and text throughout our web application, ensuring maximum readability and usability for all users.
  
-**-TYPOGRAPHY**
+#### **-TYPOGRAPHY**
  
 Google Fonts was used to import the chosen fonts below for use in the application.
 
@@ -67,7 +67,7 @@ font-family: 'Oswald', sans-serif;
 
 ![Font Oswald](Docs/Readme_images/font_oswald.png)
         
-**-IMAGERY**
+#### **-IMAGERY**
 
 All imagery used within the site has been chosen from [pexel](https://www.pexels.com) taken by the photographers bellow:
 
@@ -79,7 +79,7 @@ Photos by:
 
 The rest of the imagery will be uploaded by users for their individual recipes.
 
-**-WIREFRAMES**
+#### **-WIREFRAMES**
 
 <details>
 <summary>Landing Page</summary>
@@ -134,7 +134,7 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 
 ## Features
 
-**Header**
+#### **Header**
 
 **- Navigation Bar**
 * The navigation bar in EFH provides convenient access to different sections of the web application
@@ -148,29 +148,29 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * An utensil icon with the text EFH representing Eating From Home to enhance brand recognition
 ![Nav Bar All users](Docs/Readme_images/features/navbar_allusers.png)
 
-**Footer**
+#### **Footer**
 
 * The footer section of EFH is displayed across all web pages, providing important information and encouraging user engagement.
 * To enhance user interaction, social media icons are included, allowing users to easily connect with EFH on various platforms.
 * Social media icons link to EFH's official social media pages, providing users with additional avenues to stay connected, receive updates, and access more content.
 ![Footer](Docs/Readme_images/features/footer.png)
 
-**Home Page**
+#### **Home Page**
 
-**- Welcome Section**
+#### **- Welcome Section**
 
 * The hero section of EFH homepage sets the stage for an exciting culinary journey.
 * With a captivating background image, the section immediately grabs the user attention.
 * Overlaid on the image is a transparent text box that contains our mission and an welcoming message.
 ![Welcome Section](Docs/Readme_images/features/welcome_section.png)
 
-**- Why Join Us Section**
+#### **- Why Join Us Section**
 * The Reasons to Join Us section is featured on the homepage.
 * It displays our main points that make EFH community interesting and encourages users to join and engage.
 * There are four main points highlighted through visually appealing cards: Healthy Habits, Inspiration, Save Time and Community.
 ![Why Join Us](Docs/Readme_images/features/reason_section.png)
 
-**- Inspiration Corner**
+#### **- Inspiration Corner**
 * In the Inspiration Corner section, EFH presents a delightful collection of recipes to inspire users.
 * Each recipe card displays an mouthwatering image that leads users to explore further.
 * The name of the recipe chef is displayed, giving credit to chefs expertise.
@@ -178,25 +178,24 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * Pagination navigation is provided at the bottom of the section, allowing easy browsing through the recipe list.
 ![Inspiration Corner](Docs/Readme_images/features/inspiration_corner.png)
 
-**- Recipe Detail Page**
+#### **- Recipe Detail Page**
 * The Recipe Details page provides a guide on how to create a delicious dish.
 * At the top of the page, an mouthwatering image of the dish sets the stage.
 * The header also includes essential details so users can quickly grasp the recipe key information and decide if it suits their preferences.
 ![Recipe Home Page Details](Docs/Readme_images/features/recipe_details.png)
 
-**- Comments Section**
+#### **- Comments Section**
 * Users have the opportunity to engage with the community and share their thoughts on the recipe.
 * The comments section allows users to read and leave comments.
 ![Comments Section](Docs/Readme_images/features/recipes_comments.png)
 
-**- Like/Unlike**
-
+#### **- Like/Unlike**
 * The Like Features on page recipe details which allows users to express their appreciation for a particular recipe.
 * Users can find a heart shaped icon next to the recipe details.
 * The recipe details page also displays the total number of likes and comments received by the recipe.
 * ![Like and Unlike](Docs/Readme_images/features/like_and_comment_feature.png)
 
-**User Account Pages**
+#### **User Account Pages**
 
 <details>
 <summary>Sign Up</summary>
@@ -217,7 +216,7 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
  
 </details>
 
-**My Book Section**
+#### **My Book Section**
 
 * In the My Book section, authenticated users can manage and organize their collection of recipes.
 * The recipes are presented in a paginated view, displayed in visually appealing cards.
@@ -225,25 +224,25 @@ Entity relationship diagram was created using [Lucid Chart](https://www.lucidcha
 * There is an add recipe button at the head to ensures easy access to the recipe creation functionality, promoting a better user experience
 ![My Book Section](Docs/Readme_images/features/my_book.png)
 
-**- User Recipe Detail Page**
+#### **- User Recipe Detail Page**
 * The User Recipe details page provides a guide created by the user on how to make a specific recipe.
 * The header includes essential details such as the recipe title, preparation time, cooking time, chefs name, and creation date.
 * Users can quickly access the recipe key information and decide if it suits their necessites 
 ![Recipe Details](Docs/Readme_images/features/user_recipe_details.png)
 
-**- Add Recipe Form**
+#### **- Add Recipe Form**
 * The Add Recipe page allows authenticated users filling out a form and add a recipe to their personal recipe book.
 * The form ensures that all mandatory fields are filled out before submission.
 * Users can easily add an image to their recipe by selecting the option to upload a featured image.
 ![Add Recipe Form](Docs/Readme_images/features/Add_recipe.png)
 
-**- Edit Recipe Form**
+#### **- Edit Recipe Form**
 * The page presents a pre-populated form that displays all the information of the selected recipe.
 * After making the desired changes, users can submit the updated recipe by clicking the Update button.
 * The form maintains visual consistency with the rest of the website.
 ![Updated recipe](Docs/Readme_images/features/edit_recipes.png)
 
-**- Delete Recipe**
+#### **- Delete Recipe**
 * The Delete Recipe page allow authenticated users to remove recipes from their personal recipe book.
 * Users are prompted with a confirmation message, asking if they are certain they want to delete the selected recipe.
 * The page displays a Delete button, calling the user attention to ensure that users are fully aware of the action they are about to take.
