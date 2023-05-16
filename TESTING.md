@@ -51,3 +51,8 @@ All html pages have been run through the [W3C HTML Validator](https://validator
 No errors or warnings are returned when passing the styles.css through the [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 * ![css testing image](Docs/Readme_images/testing/css_validator_test_results.png)
+
+## JSHint JavaScript VALIDATION
+All the sripts used in EFH have been run through the [JSHint Javascript Validator](https://jshint.com/) and they return no errors.
+
+* ![jshint java testing](Docs/Readme_images/testing/jshint_test_result.png)
