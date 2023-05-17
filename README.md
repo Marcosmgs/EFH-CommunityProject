@@ -159,11 +159,11 @@ The author of each recipe is represented by a foreign key reference to the User 
 
 Additionally a like model have implemented to allow users to express their appreciation for recipes in the inspiration section.
 
-The diagram below details the database schema.
+The diagram below details the database scheme.
 
 ![ER Diagram Image](Docs/Readme_images/er_model_diagram.png)
 
-Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemas for each of the models and how they are related.
+Entity relationship diagram was created using [Lucid Chart](https://www.lucidchart.com/) shows the schemes for each of the models and how they are related.
 
 ## Features
 
