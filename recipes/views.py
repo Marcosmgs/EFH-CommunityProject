@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.contrib import messages
 from django.views import generic, View
 from django.urls import reverse_lazy
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, Http404
 from .models import Recipe
 from .forms import CommentForm, AddRecipeForm
 
@@ -165,6 +165,18 @@ class UpdateRecipe(generic.UpdateView):
     template_name = 'edit_recipe.html'
     form_class = AddRecipeForm
     success_url = reverse_lazy("my_book")
+
+    def get_object(self, queryset=None):
+        """
+        Method called to validade user.
+        Ensure that users can only manage their own recipes 
+        and not others recipes.
+        """
+        obj = super().get_object(queryset=queryset)
+        # Check if the current user is the author of the recipe
+        if obj.author != self.request.user:
+            raise Http404("You are not allowed to update this recipe.")
+        return obj
 
     def form_valid(self, form):
         """
