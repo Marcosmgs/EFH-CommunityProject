@@ -264,9 +264,13 @@ hr.line-break {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 490px) {
     .recipe-head-image {
         height: 150px;
-    }        
-}
+    }
 
+    #cover-text {
+        width: 15rem;
+        margin-left: 25px;
+    }
+}
