@@ -64,7 +64,7 @@
             <div class="card recipe-description">
                 <h5 class="card-header"><span>Description</span></h5>
                 <div class="card-body">
-                <p class="card-text"><span>{{ recipe.description }}</span></p>
+                <p class="card-text"><span>{{ recipe.description | safe }}</span></p>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Ingredients</h5>
-                    <p class="card-text"><span>{{ recipe.ingredients }}</span></p>
+                    <p class="card-text"><span>{{ recipe.ingredients | safe }}</span></p>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Method</h5>
-                    <p class="card-text"><span>{{ recipe.method }}</span></p>
+                    <p class="card-text"><span>{{ recipe.method | safe }}</span></p>
                 </div>
             </div>
         </div>
